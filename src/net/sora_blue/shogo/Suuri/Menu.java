@@ -51,7 +51,7 @@ public class Menu extends Activity
 		int msg = -1;
 		Activater act = null;
 		
-		//押されたボタンに酔って起動する画面を変更
+		//押されたボタンによって起動する画面を変更
 		switch(v.getId()) {
 		case R.id.btnBaisu1:
 			title = R.string.menu_baisu1;
