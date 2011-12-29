@@ -30,7 +30,7 @@ public class Menu extends Activity
         baisu1 = new Activater(this, Baisu1.class);
         baisu2 = new Activater(this, Baisu2.class);
         div1 = new Activater(this, Div1.class);
-        //gcdtest = new Activater(this, GcdTest.class);
+        gcdtest = new Activater(this, GcdTest.class);
         //ratio = new Activater(this, Ratio.class);
     }
 
