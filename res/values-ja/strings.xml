@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- アプリの名前 -->
+<string name="app_name">数理演習をやっつけろ</string>
+
+<!-- メニューの文字 -->
+<string name="welcome_message">練習の種類を選んでください</string>
+<string name="menu_baisu1">倍数書き出し練習 1</string>
+<string name="menu_baisu2">倍数書き出し練習 2</string>
+<string name="menu_gcd">最大公約数</string>
+<string name="menu_ratio">比の練習</string>
+<string name="menu_div">割り算</string>
+
+<!-- 開始時のメッセージ -->
+<string name="starting_baisu1">0を入力すると終了します\n\nOKを押すと始まります</string>
+<string name="starting_baisu2">0を入力すると終了します\n\nOKを押すと始まります</string>
+<string name="starting_gcd">最大公約数を書き出しなさい(25問)\n解答に0を入力すると終了します\nOKを押すと始まります</string>
+<string name="starting_ratio">簡単な比に直しなさい。(20問）\n解答は**?**で行います。\n (*は任意の数字？はその他の文字)\n解答に0を入力すると終了します\n\nOKを押すと始まります</string>
+<string name="starting_div">次の計算をしなさい(15問）\n解答に0を入力すると終了します\nOKを押すと始まります</string>
+<string name="quit_msg">えっ！途中でやめるんですか？</string>
+
+<!-- プレイ中に表示されるメッセージ -->
+<string formatted="false" name="score_message">%2d 分 %02d 秒経過\n現在の得点は %3d です</string>
+<string name="result_ng">不正解</string>
+<string formatted="false" name="quiz_baisu1">問題\n%2d の %2d 倍は？</string>
+<string formatted="false" name="quiz_baisu2">問題\n%2d の %2d 倍は？</string>
+<string formatted="false" name="quiz_gcd">第%2d問\n%d と %d ？</string>
+<string formatted="false" name="quiz_ratio">第%2d問\n%d : %d =?</string>
+<string formatted="false" name="quiz_div">第%2d問\n%d ÷ %d =?</string>
+
+<string name="result_ratio1">数は二つ入力してください</string>
+<string name="result_ratio2">約数ではありません</string>
+<string name="result_ratio3">公約数で割ってません。</string>
+<string name="result_ratio4">まだまだ。</string>
+
+<!-- タイムの評価結果 -->
+<string formatted="false" name="eval_message">あなたの得点は %d 点です\nタイムは %d 分  %02d 秒\n\n%s\n\n%s\nOKを押すと終了します</string>
+<string name="eval_ok">合格！</string>
+<string name="eval_ng">不合格</string>
+<string name="eval1">まずは30秒縮めよう</string>
+<string name="eval2">もう少しで名前が載るぞ。</string>
+<string name="eval3">惜しい。もう一息だ！</string>
+<string name="eval4">おお・・・・よくやった</string>
+</resources>

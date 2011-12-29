@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<TextView
+	android:text="@string/welcome_message"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" />
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/btnBaisu1"
+	android:text="@string/menu_baisu1" />
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/btnBaisu2"
+	android:text="@string/menu_baisu2" />
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/btnGCD"
+	android:text="@string/menu_gcd" />
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/btnRatio"
+	android:text="@string/menu_ratio" />
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/btnDiv"
+	android:text="@string/menu_div" />
+
+</LinearLayout>

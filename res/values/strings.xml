@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- アプリの名前 -->
+<string name="app_name">Beat Math Seminar</string>
+
+<!-- メニューの文字 -->
+<string name="welcome_message">Choose Type</string>
+<string name="menu_baisu1">Multiples 1</string>
+<string name="menu_baisu2">Multiples 2</string>
+<string name="menu_gcd">G.C.D.</string>
+<string name="menu_ratio">Ratio</string>
+<string name="menu_div">Division</string>
+
+<!-- 開始時のメッセージ -->
+<string name="starting_baisu1">Answer 0 to quit\n\nPush OK to start</string>
+<string name="starting_baisu2">Answer 0 to quit\n\nPush OK to start</string>
+<string name="starting_gcd">Find G.C.D(25 Questions)\nAnswer 0 to quit\n\nPush OK to start</string>
+<string name="starting_ratio">Simplify ratios(20 Questions）\nAnswer **?**\n (*:Digit Number,？:Other Character)\nAnswer 0 to quit\n\nPush OK to start</string>
+<string name="starting_div">Find answers(15 Quesions）\nAnswer 0 to quit\n\nPush OK to start</string>
+<string name="quit_msg">What! Quit the quiz?</string>
+
+<!-- プレイ中に表示されるメッセージ -->
+<string formatted="false" name="score_message">%2d : %02d \nYour score is %3d</string>
+<string name="result_ng">Incorrect</string>
+<string formatted="false" name="quiz_baisu1">Question\n%2d times %2d is?</string>
+<string formatted="false" name="quiz_baisu2">Question\n%2d times %2d is?</string>
+<string formatted="false" name="quiz_gcd">No.%2d\n%d and %d ？</string>
+<string formatted="false" name="quiz_ratio">No.%2d\n%d : %d =?</string>
+<string formatted="false" name="quiz_div">No.%2d\n%d ÷ %d =?</string>
+
+<string name="result_ratio1">Input two numbers</string>
+<string name="result_ratio2">It\'s not a divisor!</string>
+<string name="result_ratio3">Divide a common divisor!</string>
+<string name="result_ratio4">Not enough</string>
+
+<!-- タイムの評価結果 -->
+<string formatted="false" name="eval_message">Your score is %d \nTime is %d : %02d\n\n%s\n\n%s\nPush OK to quit</string>
+<string name="eval_ok">You passed!</string>
+<string name="eval_ng">Failure</string>
+<string name="eval1">Take it easy.</string>
+<string name="eval2">Good!</string>
+<string name="eval3">Nice try!</string>
+<string name="eval4">Oh! Excellent!</string>
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+<TableRow
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:width="5000dp"
+	android:id="@+id/btnBaisu1"
+	android:text="@string/menu_baisu1" />
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:width="5000dp"
+	android:id="@+id/btnRatio"
+	android:text="@string/menu_ratio" />
+
+</TableRow>
+<TableRow
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:width="5000dp"
+	android:id="@+id/btnBaisu2"
+	android:text="@string/menu_baisu2" />
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:width="5000dp"
+	android:id="@+id/btnDiv"
+	android:text="@string/menu_div" />
+</TableRow>
+
+<TableRow
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	
+<Button
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:width="5000dp"
+	android:id="@+id/btnGCD"
+	android:text="@string/menu_gcd" />
+<View
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:width="5000dp"
+	android:layout_weight="1" />
+</TableRow>
+</TableLayout>
