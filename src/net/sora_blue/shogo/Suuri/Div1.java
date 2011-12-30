@@ -56,6 +56,7 @@ public class Div1 extends Quiz {
 	@Override
 	protected void onSaveInstanceState(Bundle outState) {
 		super.onSaveInstanceState(outState);
+		outState.putInt("nquiz", nquiz);
 		outState.putIntArray("list", list);
 		outState.putIntArray("div", div);
 	}
@@ -64,6 +65,7 @@ public class Div1 extends Quiz {
 	@Override
 	protected void onRestoreInstanceState(Bundle savedInstanceState) {
 		super.onRestoreInstanceState(savedInstanceState);
+		nquiz = savedInstanceState.getInt("nquiz");
 		list = savedInstanceState.getIntArray("list");
 		div = savedInstanceState.getIntArray("div");
 	}
