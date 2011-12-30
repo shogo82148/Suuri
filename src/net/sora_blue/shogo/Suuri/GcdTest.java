@@ -14,8 +14,8 @@ public class GcdTest extends Quiz {
 	int pair1[] = getPairList(3);
 	int pair2[] = getPairList(2);
 	int num = (int)(myRand()*8L/Integer.MAX_VALUE) + 2;
-	int a = list[0] * num;
-	int b = list[0] * num;
+	int a = pair1[0] * num;
+	int b = pair2[0] * num;
 	int num_question = 0;	//–â‘è”Ô†
 	
 	protected int[] getPairList(int offset) {
