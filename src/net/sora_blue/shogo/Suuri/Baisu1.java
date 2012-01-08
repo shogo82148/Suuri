@@ -10,7 +10,7 @@ public class Baisu1 extends Quiz {
 			{13,  7, 16,  6, 15, 12, 14}
 		};
 	private int[] list = randomList(lists);
-	private int base = 6, num = 2;
+	private int base = 0, num = 2;
 	
 	//解答をチェックする
 	protected String checkAns0(String ans) {
