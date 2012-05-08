@@ -246,7 +246,6 @@ public class Quiz extends Activity
 		return super.onKeyDown(keyCode, event);
 	}
 	
-	@Override
 	public void onClick(View v) {
 		switch(v.getId()) {
 		case R.id.btn0:

@@ -45,7 +45,6 @@ public class Menu extends Activity
 		}
     }
     
-	@Override
 	public void onClick(View v) {
 		int title = -1;
 		int msg = -1;
